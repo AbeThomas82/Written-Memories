@@ -19,5 +19,18 @@ app.post('/api/notes', (req, res) =>{
   })
   res.json(db)
 });
-
+app.delete('/api/notes/:id', (req, res) =>{
+    let array = [];
+    for (let i=0; i<db.length; i++) {
+        if (db[i].id != req.params.id){
+            array.push(db[i])
+        }
+    }
+    db = array;
+    //db.push(notes)
+    fs.writeFileSync('./db/db.json', JSON.stringify(db),function(err){
+      if(err) throw err
+    })
+    res.json(db)
+  });
 module.exports = app

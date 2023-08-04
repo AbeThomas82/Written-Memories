@@ -24,6 +24,16 @@ The end user will be able to run the application from Heroku and have the abilit
 
 [Heroku](https://written-memories-deployed-42a08d3bbc10.herokuapp.com/)
 
+## Screenshots
+
+![Startup Page](./public/assets/Screenshots/Screenshot1.png)
+
+![Note and Subtext Entry](./public/assets/Screenshots/Screenshot2.png)
+
+![Information Added to Left Side](./public/assets/Screenshots/Screenshot3.png)
+
+![Information Deleted from Left Side](./public/assets/Screenshots/Screenshot4.png)
+
 ## Credits
 Sangeetha Kaliaperumal of Calendly
 

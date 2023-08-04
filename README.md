@@ -1,4 +1,4 @@
-# Written-Memories
+# Written Memories
 
 ## Description
 In this challenge, we were required to use ExpressJS to use and to modify a Note Taker app in order to allow the end user to jot down and save ideas online. There is also a bonus option to backtrack and redo notes that are not en vogue by the user, which demonstrates the adaptability of the application.
